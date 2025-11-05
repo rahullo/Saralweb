@@ -27,7 +27,7 @@ const mergeTimeRanges = (ranges, threshold) => {
     }
   }
 
-  // Push the final range
+  // final range
   merged.push([currentStart, currentEnd]);
 
   return merged;
